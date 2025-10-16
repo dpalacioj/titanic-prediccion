@@ -1,0 +1,23 @@
+[project]
+name = "titanic-prediccion"
+version = "0.1.0"
+description = "Este es un mini proyecto sobre el conjunto de datos Titanic"
+author = [
+    {name = "David Palacio", email= "davidpalacioj@gmail.com"}
+]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "gdata>=2.0.18",
+    "ipykernel>=7.0.1",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "plotly>=6.3.1",
+    "pyarrow>=21.0.0",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv]
+dev-dependencies = ["ruff", "pytest"]
