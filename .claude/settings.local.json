@@ -2,9 +2,16 @@
   "permissions": {
     "allow": [
       "Bash(uv pip:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "WebSearch"
     ],
     "deny": [],
     "ask": []
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "context7"
+  ]
 }
