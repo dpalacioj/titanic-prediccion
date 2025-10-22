@@ -3,3 +3,4 @@ notebooks/logs.log
 dependencies.txt
 .claude/settings.local.json
 .claude/settings.local.json
+notebooks/flaml_titanic_automl.log
